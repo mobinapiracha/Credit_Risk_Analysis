@@ -12,7 +12,8 @@ Fast Lending, a peer to peer lending company wants to use machine learning to pr
 * Analyzed outcomes of the Logistic Regression analysis using Naive Random and SMOTE Oversampling, Cluster Centroids Undersampling, and SMOTEENN combination over and undersampling 
 * Naive Random Oversampling methods produced an accuracy score of 64.73%, 70 true positives, 31 false negatives, 6813 false positives and 10291 true negatives, precision of 0.01 and recall of 0.69 for high risk and precision of 1.00 and recall of 0.60 for low risk. The method did not perform well
 
-![alt text](https://raw.githubusercontent.com/mobinapiracha/Credit_Risk_Analysis/main/path/to/Cluster_Centroids_resampling.PNG)
+![picture](Images/Cluster_Centroids_resampling.PNG)
+
 * SMOTE oversampling methods produced an accuracy score of 66.21%, 64 true positives, 37 false negatives, 5291 false positives and 11813 true negatives, precision of 0.01 and recall of 0.63 for high risk and precision of 1.00 and recall of 0.69 for low risk. The method did not perform well
 * The Cluster Centroids Undersampling produced an accuracy score of 54.43%, 70 true positives, 31 false negatives, 10340 false positives and 6764 true negatives, precision of 0.01 and recall of 0.69 for high risk and precision of 1.00 and recall of 0.40 for low risk. The method did not perform well
 * Combination Sampling with SMOTEENN produced an accuracy score of 67.75%, 79 true positives, 22 false negatives, 7305 false positives, 9799 true negatives, precision of 0.01 and recall of 0.78 for high risk and precision of 1.00 and recall of 0.57 for low risk. This method performed better relative to other sampling methods but overall did not perform well.
