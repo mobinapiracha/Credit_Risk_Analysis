@@ -12,16 +12,34 @@ Fast Lending, a peer to peer lending company wants to use machine learning to pr
 * Analyzed outcomes of the Logistic Regression analysis using Naive Random and SMOTE Oversampling, Cluster Centroids Undersampling, and SMOTEENN combination over and undersampling 
 * Naive Random Oversampling methods produced an accuracy score of 64.73%, 70 true positives, 31 false negatives, 6813 false positives and 10291 true negatives, precision of 0.01 and recall of 0.69 for high risk and precision of 1.00 and recall of 0.60 for low risk. The method did not perform well
 
+Naive Random Sampling 
+![picture](Images/Naive_Random_Sampling.PNG)
+
+* SMOTE oversampling methods produced an accuracy score of 66.21%, 64 true positives, 37 false negatives, 5291 false positives and 11813 true negatives, precision of 0.01 and recall of 0.63 for high risk and precision of 1.00 and recall of 0.69 for low risk. The method did not perform well.
+
+SMOTE Oversampling 
+![picture](Images/SMOTE_Oversampling.PNG)
+
+* The Cluster Centroids Undersampling produced an accuracy score of 54.43%, 70 true positives, 31 false negatives, 10340 false positives and 6764 true negatives, precision of 0.01 and recall of 0.69 for high risk and precision of 1.00 and recall of 0.40 for low risk. The method did not perform well
+
+Cluster Centroids Resampling
 ![picture](Images/Cluster_Centroids_resampling.PNG)
 
-* SMOTE oversampling methods produced an accuracy score of 66.21%, 64 true positives, 37 false negatives, 5291 false positives and 11813 true negatives, precision of 0.01 and recall of 0.63 for high risk and precision of 1.00 and recall of 0.69 for low risk. The method did not perform well
-* The Cluster Centroids Undersampling produced an accuracy score of 54.43%, 70 true positives, 31 false negatives, 10340 false positives and 6764 true negatives, precision of 0.01 and recall of 0.69 for high risk and precision of 1.00 and recall of 0.40 for low risk. The method did not perform well
 * Combination Sampling with SMOTEENN produced an accuracy score of 67.75%, 79 true positives, 22 false negatives, 7305 false positives, 9799 true negatives, precision of 0.01 and recall of 0.78 for high risk and precision of 1.00 and recall of 0.57 for low risk. This method performed better relative to other sampling methods but overall did not perform well.
+
+SMOTEENN Combination Sampling 
+![picture](Images/SMOTEENN.PNG)
 
 ### Ensemble Learners 
 
 * We used Ensemble learners such as Balanced Random Forest and Easy Ensemble AdaBoost Classifier to see if these methods predict better results. 
 * Balanced Random Forest produced an accuracy score of 78.85%, 71 true positives, 31 false negatives, 2153 false positives and 14951 true negatives. A precision of 0.03 and recall of 0.7 for high risk and precision of 1.00 and recall of 0.87 for low risk, the model has performed much better than the results above. Easy Ensemble Classifier performs even better with a an accuracy score of 93%, 93 true positives, 8 false negatives, 983 false positives and 16121 true negatives. A precision score of 0.09 and recall of 0.92 for high risk and a precision of 1.00 and a recall of 0.94 for low risk. This model performs the best out of all the classifiers. 
+
+Balanced Random Forest Classifier
+![picture](Images/brf_classifier.PNG)
+
+Easy Ensemble AdaBoost Classifier 
+![picture](Images/ee_classifier.PNG)
 
 ## Summary 
 
